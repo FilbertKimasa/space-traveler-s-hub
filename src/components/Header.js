@@ -14,17 +14,35 @@ function Header() {
       <nav>
         <ul className="nav-list display-flex">
           <li>
-            <NavLink to="/Rocket" className="rocket-link">
+            <NavLink
+              to="/Rocket"
+              className="rocket-link"
+              style={({ isActive }) => ({
+                textDecoration: isActive ? 'underline' : 'none',
+              })}
+            >
               Rocket
             </NavLink>
           </li>
           <li>
-            <NavLink to="/mission" className="mission-link">
+            <NavLink
+              to="/mission"
+              className="mission-link"
+              style={({ isActive }) => ({
+                textDecoration: isActive ? 'underline' : 'none',
+              })}
+            >
               Mission
             </NavLink>
           </li>
           <li>
-            <NavLink to="/my-profile" className="profile-link">
+            <NavLink
+              to="/my-profile"
+              className="profile-link"
+              style={({ isActive }) => ({
+                textDecoration: isActive ? 'underline' : 'none',
+              })}
+            >
               My profile
             </NavLink>
           </li>
