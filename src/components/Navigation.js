@@ -6,8 +6,8 @@ function Navigation() {
   return (
     <header className="panel-bg">
       <div>
-        <img src={logo} alt="logo" />
-        <span>Space Traveler&lsquo;s Hub</span>
+        <img src={logo} alt="logo" className="logo" />
+        <span className="app-name">Space Traveler&lsquo;s Hub</span>
       </div>
 
       <nav />
