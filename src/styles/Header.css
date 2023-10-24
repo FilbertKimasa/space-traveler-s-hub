@@ -18,7 +18,8 @@
 header {
   justify-content: space-between;
   border-bottom: 1px solid rgb(222, 222, 222);
-  margin: 24px;
+  margin: 0 24px;
+  padding-bottom: 18px;
 }
 
 .head {
@@ -30,4 +31,10 @@ header {
   list-style: none;
   text-decoration: none;
   gap: 20px;
+  padding-top: 10px;
+}
+
+.profile-link {
+  border-left: 2px solid rgb(222, 222, 222);
+  padding-left: 20px;
 }
