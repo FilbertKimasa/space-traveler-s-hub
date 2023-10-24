@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
-import Navigation from './components/Header';
+import Header from './components/Header';
 
 function App() {
   return (
     <>
-      <Navigation />
+      <Header />
       <Routes>
         <Route path="/mission" element={<mission />} />
       </Routes>
