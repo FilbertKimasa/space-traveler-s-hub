@@ -15,6 +15,7 @@ const fetchRockets = createAsyncThunk('rockets/fetchRockets', async () => {
   //     throw new Error('Failed to fetch rockets');
   //   }
   const { data } = response;
+  // eslint-disable-next-line no-console
   console.log(data);
   return data;
 });
@@ -42,4 +43,5 @@ const rocketsSlice = createSlice({
   },
 });
 
+export { fetchRockets };
 export default rocketsSlice.reducer;
