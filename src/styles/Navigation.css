@@ -6,3 +6,8 @@
 .app-name {
   font-size: 25px;
 }
+
+.nav-list{
+  display:flex;
+  list-style:none;
+}

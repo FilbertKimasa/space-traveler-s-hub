@@ -12,7 +12,7 @@ function Navigation() {
       </div>
 
       <nav>
-        <ul>
+        <ul className="nav-list">
           <li>
             <Link to="/Rocket" className="rocket-link">
               Rocket
