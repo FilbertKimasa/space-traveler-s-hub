@@ -6,7 +6,7 @@ import '../styles/Header.css';
 function Header() {
   return (
     <header className="panel-bg">
-      <div>
+      <div className="head">
         <img src={logo} alt="logo" className="logo" />
         <span className="app-name">Space Traveler&lsquo;s Hub</span>
       </div>
