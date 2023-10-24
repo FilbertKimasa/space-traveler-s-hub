@@ -41,10 +41,9 @@ header {
 
 .nav-list li a {
   text-decoration: none;
-  color: rgb(16,130,255);
+  color: rgb(16, 130, 255);
 }
 
 .nav-list li a.active {
   text-decoration: underline;
 }
-
