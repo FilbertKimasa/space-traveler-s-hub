@@ -1,13 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-// import logo from '../assets/logo.png';
+
+import logo from '../assets/logo.png';
 
 function Navigation() {
   return (
     <header className="panel-bg">
-      <Link to="/">
-        <img src="../assets/logo.png" alt="logo" />
-      </Link>
+      <img src={logo} alt="logo" />
+
       <nav />
     </header>
   );
