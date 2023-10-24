@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import '../styles/Navigation.css';
 
@@ -12,16 +13,22 @@ function Navigation() {
 
       <nav>
         <ul>
-        <li>
-          <Link to="/Rocket" className="rocket-link">Rocket</Link>
-        </li>
-        <li>
-          <Link to="/mission" className="mission-link">Mission</Link>
-        </li>
-        <li>
-          <Link to="/my-profile" className="profile-link">My profile</Link>
-        </li>
-      </ul>
+          <li>
+            <Link to="/Rocket" className="rocket-link">
+              Rocket
+            </Link>
+          </li>
+          <li>
+            <Link to="/mission" className="mission-link">
+              Mission
+            </Link>
+          </li>
+          <li>
+            <Link to="/my-profile" className="profile-link">
+              My profile
+            </Link>
+          </li>
+        </ul>
       </nav>
     </header>
   );
