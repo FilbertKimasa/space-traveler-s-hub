@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import '../styles/Header.css';
 
@@ -14,9 +14,15 @@ function Header() {
       <nav>
         <ul className="nav-list display-flex">
           <li>
-            <Link to="/Rocket" className="rocket-link">
+            <NavLink
+              to="/Rocket"
+              className="rocket-link"
+              style={({ isActive }) => ({
+                textDecoration: isActive ? 'underline' : 'none',
+              })}
+            >
               Rocket
-            </Link>
+            </NavLink>
           </li>
           <li>
             <NavLink to="/mission" className="mission-link">
@@ -24,9 +30,15 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <Link to="/my-profile" className="profile-link">
+            <NavLink
+              to="/my-profile"
+              className="profile-link"
+              style={({ isActive }) => ({
+                textDecoration: isActive ? 'underline' : 'none',
+              })}
+            >
               My profile
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
