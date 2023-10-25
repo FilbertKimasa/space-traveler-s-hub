@@ -38,3 +38,12 @@ header {
   border-left: 2px solid rgb(222, 222, 222);
   padding-left: 20px;
 }
+
+.nav-list li a {
+  text-decoration: none;
+  color: rgb(16, 130, 255);
+}
+
+.nav-list li a.active {
+  text-decoration: underline;
+}
