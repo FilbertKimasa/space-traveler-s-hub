@@ -11,3 +11,8 @@
   margin: 0;
   padding: 10px;
 }
+
+.rocket-info {
+  flex-direction: column;
+  gap: 20px;
+}
