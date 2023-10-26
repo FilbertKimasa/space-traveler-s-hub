@@ -1,8 +1,5 @@
-/* eslint-disable react/button-has-type */
-/* eslint-disable jsx-a11y/control-has-associated-label */
-/* eslint-disable react/jsx-no-comment-textnodes */
-/* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import '../styles/RocketItem.css';
 
@@ -18,11 +15,23 @@ function RocketItem({ itemProp }) {
         <span className="display-flex rocket-info">
           <h2>{itemProp.name}</h2>
           <p>{itemProp.description}</p>
-          <button className="reserve-btn">Reserve Rocket</button>
+          <button className="reserve-btn" type="button">
+            Reserve Rocket
+          </button>
         </span>
       </li>
     </>
   );
 }
+
+RocketItem.propTypes = {
+  itemProp: PropTypes.objectOf(
+    PropTypes.shape({
+      flickr_images: PropTypes.arrayOf(PropTypes.string).isRequired,
+      name: PropTypes.string.isRequired,
+      itemProp: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
+};
 
 export default RocketItem;

@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux/es/hooks/useSelector';
 import { fetchRockets } from '../redux/rockets/rocketsSlice';
-// eslint-disable-next-line no-unused-vars
 import RocketItem from './RocketItem';
 
 function RocketList() {
