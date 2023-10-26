@@ -44,6 +44,11 @@ function MissionList() {
             <div className="mission-description">
               <p>{mission.description}</p>
             </div>
+            
+            <button type="button">Not a member</button>
+            <button type="button">Join Mission</button>
+                                                    
+
           </div>
         ))}
       </div>
