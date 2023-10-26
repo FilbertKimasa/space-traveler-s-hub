@@ -29,12 +29,13 @@ function MissionList() {
 
   return (
     <div className="item-container">
-      <table className="head-list">
+      <table className="M-table">
         <thead>
+          <tr>
           <th>Mission</th>
           <th>Description</th>
           <th>Status</th>
-
+          </tr>
         </thead>
         <tbody>
           {missions.map((mission) => (
