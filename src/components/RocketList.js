@@ -10,18 +10,14 @@ function RocketList() {
   useEffect(() => {
     dispatch(fetchRockets());
   }, [dispatch]);
-  // eslint-disable-next-line no-unused-vars
+
   const rockets = useSelector((state) => state.rockets.rockets);
-  // console.log(rockets);
   return (
-    <>
-      {/* <RocketItem key={book.item_id} itemProp={book} />; */}
-      <ul>
-        {rockets.map((rocket) => (
-          <RocketItem key={rocket.id} itemProp={rocket} />
-        ))}
-      </ul>
-    </>
+    <ul>
+      {rockets.map((rocket) => (
+        <RocketItem key={rocket.id} itemProp={rocket} />
+      ))}
+    </ul>
   );
 }
 

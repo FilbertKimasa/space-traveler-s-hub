@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import RocketList from './components/RocketList';
+import './styles/App.css';
 
 function App() {
   return (
