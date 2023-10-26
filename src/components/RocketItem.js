@@ -9,7 +9,7 @@ import '../styles/RocketItem.css';
 function RocketItem({ itemProp }) {
   return (
     <>
-      <li className="display-flex rocket-item">
+      <li className="rocket-item">
         <img
           src={itemProp.flickr_images[0]}
           alt="rocket"

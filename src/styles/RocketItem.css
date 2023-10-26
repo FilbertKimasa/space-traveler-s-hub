@@ -1,10 +1,13 @@
-/* .rocket-img {
-  width: 300px;
+.rocket-img {
+  width: 100%;
   height: auto;
 }
 
 .rocket-item {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 25% auto;
   gap: 15px;
   margin: 0;
   padding: 10px;
-} */
+}
