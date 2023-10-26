@@ -7,8 +7,12 @@ import React from 'react';
 function RocketItem({ itemProp }) {
   return (
     <>
-      <li>
-        <img src={itemProp.flickr_images[0]} alt="rocket" />
+      <li className="display-flex">
+        <img
+          src={itemProp.flickr_images[0]}
+          alt="rocket"
+          className="rocket-img"
+        />
         <span>
           <h2>{itemProp.name}</h2>
           <p>{itemProp.description}</p>
