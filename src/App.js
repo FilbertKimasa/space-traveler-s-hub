@@ -8,6 +8,7 @@ function App() {
     <>
       <Header />
       <Routes>
+        <Route path="/" element={<RocketList />} />
         <Route path="/rockets" element={<RocketList />} />
         <Route path="/mission" element={<mission />} />
       </Routes>
