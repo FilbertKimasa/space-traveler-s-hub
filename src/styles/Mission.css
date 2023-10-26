@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:0;
+}
+
+.item-container {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .head-list {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+  
+  .mission-item {
+    flex-basis: 33.33%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+  
+  .missions {
+    display: grid;
+    flex-wrap: wrap;
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  
+  .mission-description {
+    grid-row: 2 / 3;
+  }
+  
+  .mission-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .mission-name {
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }

@@ -10,7 +10,7 @@ const initialState = {
 
 export const fetchMission = createAsyncThunk('mission/fetchMission', async () => {
   const response = await axios.get(apiUrl);
-  return response;
+  return response.data;
 });
 
 const MissionSlice = createSlice({
@@ -26,9 +26,9 @@ const MissionSlice = createSlice({
 
       .addCase(fetchMission.fulfilled, (state, action) => {
         state.isLoading = false;
-        state.missions = action.payload.data.map((mission) => ({
+        state.missions = action.payload.map((mission) => ({
           id: mission.mission_id,
-          name: mission.mission_name,
+          mission_name: mission.mission_name,
           description: mission.description,
 
         }));
