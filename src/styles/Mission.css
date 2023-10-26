@@ -32,6 +32,14 @@
   width: 100%;
 }
 
+.mission-name {
+  font-weight: bold;
+}
+
+.status{
+  width: 14%;
+}
+
 .M-table tr:nth-child(odd) {
   background-color: rgb(242,242,242);
 }

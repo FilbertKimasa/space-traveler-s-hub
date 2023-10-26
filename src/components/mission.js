@@ -45,7 +45,7 @@ function MissionList() {
               <td className="status">
                 <button type="button">Not a member</button>
                 </td>
-                <td>
+                <td className="status">
                 <button type="button">Join Mission</button>
               </td>
             </tr>
