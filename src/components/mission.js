@@ -29,29 +29,28 @@ function MissionList() {
 
   return (
     <div className="item-container">
-      <div className="head-list">
-        <ul className="mission-info">
-          <li>Mission</li>
-          <li>Description</li>
-          <li>Status</li>
+      <table className="head-list">
+        <thead>
+          <th>Mission</th>
+          <th>Description</th>
+          <th>Status</th>
 
-        </ul>
-      </div>
-      <div className="missions">
-        {missions.map((mission) => (
-          <div key={mission.mission_id} className="mission-item">
-            <div className="mission-name">{mission.mission_name}</div>
-            <div className="mission-description">
-              <p>{mission.description}</p>
-            </div>
-            
-            <button type="button">Not a member</button>
-            <button type="button">Join Mission</button>
-                                                    
-
-          </div>
-        ))}
-      </div>
+        </thead>
+        <tbody>
+          {missions.map((mission) => (
+            <tr key={mission.mission_id} className="mission-item">
+              <td className="mission-name">{mission.mission_name}</td>
+              <td>{mission.description}</td>
+              <td className="status">
+                <button type="button">Not a member</button>
+                </td>
+                <td>
+                <button type="button">Join Mission</button>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 }
