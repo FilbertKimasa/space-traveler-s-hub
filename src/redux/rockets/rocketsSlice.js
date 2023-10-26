@@ -34,6 +34,7 @@ const rocketsSlice = createSlice({
           description: rocket.description,
         }));
         state.error = null;
+        console.log(state.rockets);
       })
       .addCase(fetchRockets.rejected, (state, action) => {
         state.isLoading = false;
