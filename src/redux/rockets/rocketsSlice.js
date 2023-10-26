@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const baseUrl = 'https://api.spacexdata.com/v3/rockets';
 const initialState = {
-  rockets: {},
+  rockets: [],
   isLoading: false,
   error: undefined,
 };
