@@ -18,7 +18,7 @@ function RocketItem({ itemProp }) {
         <span className="display-flex rocket-info">
           <h2>{itemProp.name}</h2>
           <p>{itemProp.description}</p>
-          <button>Reserve Rocket</button>
+          <button className="reserve-btn">Reserve Rocket</button>
         </span>
       </li>
     </>
