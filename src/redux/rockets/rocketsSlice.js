@@ -10,17 +10,10 @@ const initialState = {
 
 const fetchRockets = createAsyncThunk('rockets/fetchRockets', async () => {
   const response = await axios.get(baseUrl);
-
-  //   if (response.status !== 200) {
-  //     throw new Error('Failed to fetch rockets');
-  //   }
   const { data } = response;
-  // eslint-disable-next-line no-console
-  console.log(data);
   return data;
 });
 
-// eslint-disable-next-line no-unused-vars
 const rocketsSlice = createSlice({
   name: 'rockets',
   initialState,
@@ -33,7 +26,12 @@ const rocketsSlice = createSlice({
       })
       .addCase(fetchRockets.fulfilled, (state, action) => {
         state.isLoading = false;
-        state.rockets = action.payload;
+        state.rockets = action.payload.map((rocket) => ({
+          id: rocket.id,
+          name: rocket.rocket_name,
+          type: rocket.rocket_type,
+          flickr_images: rocket.flickr_images,
+        }));
         state.error = null;
       })
       .addCase(fetchRockets.rejected, (state, action) => {
