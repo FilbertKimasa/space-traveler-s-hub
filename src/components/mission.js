@@ -14,7 +14,7 @@ function MissionList() {
   if (isLoading) {
     return (
       <div>
-        <p>Loading...</p>
+        <p className="loading">Loading...</p>
       </div>
     );
   }
@@ -32,9 +32,9 @@ function MissionList() {
       <table className="M-table">
         <thead>
           <tr>
-          <th>Mission</th>
-          <th>Description</th>
-          <th>Status</th>
+            <th>Mission</th>
+            <th>Description</th>
+            <th>Status</th>
           </tr>
         </thead>
         <tbody>
@@ -44,8 +44,8 @@ function MissionList() {
               <td>{mission.description}</td>
               <td className="status">
                 <button type="button">Not a member</button>
-                </td>
-                <td className="status">
+              </td>
+              <td className="status">
                 <button type="button">Join Mission</button>
               </td>
             </tr>
