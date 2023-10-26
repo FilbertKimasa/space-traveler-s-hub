@@ -15,7 +15,7 @@ function Header() {
         <ul className="nav-list display-flex">
           <li>
             <NavLink
-              to="/Rocket"
+              to="/rockets"
               className="rocket-link"
               style={({ isActive }) => ({
                 textDecoration: isActive ? 'underline' : 'none',
