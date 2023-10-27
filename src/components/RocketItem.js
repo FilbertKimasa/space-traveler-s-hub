@@ -33,7 +33,7 @@ function RocketItem({ itemProp }) {
             </button>
           ) : (
             <button
-              className="reserve-btn"
+              className="rocket-btn reserve-btn"
               type="button"
               onClick={() => dispatch(bookRocket({ id: itemProp.id }))}
             >
