@@ -25,7 +25,7 @@ function RocketItem({ itemProp }) {
           </p>
           {itemProp.reserved ? (
             <button
-              className="reserve-btn"
+              className="rocket-btn cancel-reserve"
               type="button"
               onClick={() => dispatch(bookRocket({ id: itemProp.id }))}
             >
