@@ -28,13 +28,7 @@ function MissionList() {
       </div>
     );
   }
-  // const handleJoinMission = (missionId) => {
-  //   dispatch(joinMission(missionId));
-  // };
-
-  // const handleLeaveMission = (missionId) => {
-  //   dispatch(leaveMission(missionId));
-  // };
+  
   return (
     <div className="item-container">
       <table className="M-table">
