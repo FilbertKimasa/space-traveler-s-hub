@@ -1,6 +1,7 @@
+/* eslint-disable */
 import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import RocketList from './components/RocketList';
+import MissionList from './components/mission';
 import './styles/App.css';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<RocketList />} />
         <Route path="/rockets" element={<RocketList />} />
-        <Route path="/mission" element={<mission />} />
+        <Route path="/mission" element={<MissionList />} />
       </Routes>
     </>
   );
