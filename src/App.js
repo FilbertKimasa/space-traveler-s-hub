@@ -1,14 +1,14 @@
+/* eslint-disable */
 import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import RocketList from './components/RocketList';
+import MissionList from './components/mission';
 
 function App() {
   return (
     <>
       <Header />
       <Routes>
-        <Route path="/rockets" element={<RocketList />} />
-        <Route path="/mission" element={<mission />} />
+        <Route path="/mission" element={<MissionList />} />
       </Routes>
     </>
   );
