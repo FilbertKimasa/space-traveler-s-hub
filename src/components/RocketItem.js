@@ -23,13 +23,23 @@ function RocketItem({ itemProp }) {
             )}
             {itemProp.description}
           </p>
-          <button
-            className="reserve-btn"
-            type="button"
-            onClick={() => dispatch(bookRocket({ id: itemProp.id }))}
-          >
-            Reserve Rocket
-          </button>
+          {itemProp.reserved ? (
+            <button
+              className="reserve-btn"
+              type="button"
+              onClick={() => dispatch(bookRocket({ id: itemProp.id }))}
+            >
+              Cancel Reservation
+            </button>
+          ) : (
+            <button
+              className="reserve-btn"
+              type="button"
+              onClick={() => dispatch(bookRocket({ id: itemProp.id }))}
+            >
+              Reserve Rocket
+            </button>
+          )}
         </span>
       </li>
     </>
