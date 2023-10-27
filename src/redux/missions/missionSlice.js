@@ -18,16 +18,20 @@ const missionSlice = createSlice({
   initialState,
   reducers: {
     joinMission: (state, action) => {
-      const missionId = action.payload;
-      state.missions = state.missions.map((mission) => (mission.id === missionId
-        ? { ...mission, reserved: true } : mission));
+      /* eslint-disable camelcase */
+      const { mission_id } = action.payload;
+      /* eslint-disable camelcase */
+      state.missions = state.missions.map((mission) => {
+        if (mission.id === mission_id) {
+          return {
+            ...mission,
+            join: !mission.join,
+          };
+        }
+        return mission;
+      });
     },
 
-    leaveMission: (state, action) => {
-      const missionId = action.payload;
-      state.missions = state.missions.map((mission) => (mission.id === missionId
-        ? { ...mission, reserved: false } : mission));
-    },
   },
 
   extraReducers: (builder) => {
@@ -52,5 +56,5 @@ const missionSlice = createSlice({
   },
 });
 
-export const { joinMission, leaveMission } = missionSlice.actions;
+export const { joinMission } = missionSlice.actions;
 export default missionSlice.reducer;
