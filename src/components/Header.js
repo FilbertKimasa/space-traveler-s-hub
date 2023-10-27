@@ -25,13 +25,7 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/mission"
-              className="mission-link"
-              style={({ isActive }) => ({
-                textDecoration: isActive ? 'underline' : 'none',
-              })}
-            >
+            <NavLink to="/mission" className="mission-link">
               Mission
             </NavLink>
           </li>
