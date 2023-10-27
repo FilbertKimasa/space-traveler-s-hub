@@ -6,6 +6,7 @@ import '../styles/RocketItem.css';
 
 function RocketItem({ itemProp }) {
   const dispatch = useDispatch();
+
   return (
     <>
       <li className="rocket-item">
@@ -17,7 +18,9 @@ function RocketItem({ itemProp }) {
         <span className="display-flex rocket-info">
           <h2>{itemProp.name}</h2>
           <p>
-            <span className="reserved-label">Recerved</span>
+            {itemProp.reserved && (
+              <span className="reserved-label">Reserved</span>
+            )}
             {itemProp.description}
           </p>
           <button
