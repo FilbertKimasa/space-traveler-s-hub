@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import React, { useEffect } from 'react';
-import { fetchMission } from '../redux/missions/missionSlice';
+import { fetchMission, joinMission, leaveMission } from '../redux/missions/missionSlice';
 import '../styles/Mission.css';
-import {joinMission,leaveMission} from '../redux/missions/missionSlice';
 
 function MissionList() {
   const { missions, isLoading, error } = useSelector((state) => state.missions);
