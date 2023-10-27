@@ -16,8 +16,10 @@ function RocketItem({ itemProp }) {
         />
         <span className="display-flex rocket-info">
           <h2>{itemProp.name}</h2>
-          <h3>{itemProp.reserved}</h3>
-          <p>{itemProp.description}</p>
+          <p>
+            <span className="reserved-label">Recerved</span>
+            {itemProp.description}
+          </p>
           <button
             className="reserve-btn"
             type="button"
