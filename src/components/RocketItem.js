@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Dispatch } from 'react';
 import PropTypes from 'prop-types';
+import { bookRocket } from '../redux/rockets/rocketsSlice';
 import '../styles/RocketItem.css';
 
+const dispatch = Dispatch();
 function RocketItem({ itemProp }) {
   return (
     <>
@@ -14,7 +16,11 @@ function RocketItem({ itemProp }) {
         <span className="display-flex rocket-info">
           <h2>{itemProp.name}</h2>
           <p>{itemProp.description}</p>
-          <button className="reserve-btn" type="button">
+          <button
+            className="reserve-btn"
+            type="button"
+            onClick={() => dispatch(bookRocket({ id: itemProp.id }))}
+          >
             Reserve Rocket
           </button>
         </span>
