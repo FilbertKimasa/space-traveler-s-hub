@@ -1,10 +1,11 @@
-import React, { Dispatch } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
 import { bookRocket } from '../redux/rockets/rocketsSlice';
 import '../styles/RocketItem.css';
 
-const dispatch = Dispatch();
 function RocketItem({ itemProp }) {
+  const dispatch = useDispatch();
   return (
     <>
       <li className="rocket-item">
@@ -15,6 +16,7 @@ function RocketItem({ itemProp }) {
         />
         <span className="display-flex rocket-info">
           <h2>{itemProp.name}</h2>
+          <h3>{itemProp.reserved}</h3>
           <p>{itemProp.description}</p>
           <button
             className="reserve-btn"
