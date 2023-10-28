@@ -1,0 +1,532 @@
+[33mcommit 3e084672795a2b6e012eb6a2be78f9713a176223[m[33m ([m[1;36mHEAD -> [m[1;32mRocket-booking[m[33m)[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Fri Oct 27 23:38:48 2023 +0300
+
+    <button
+
+[33mcommit 0df8a1229aaf0938373fed463259d7f51bdd515c[m[33m ([m[1;31morigin/Rocket-booking[m[33m)[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Fri Oct 27 23:28:39 2023 +0300
+
+    Add a condtion to display Reserved label
+
+[33mcommit 038d1d7129c100d28449df6dbd931e5afc59c913[m
+Merge: 64a6898 fcee6d0
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Fri Oct 27 23:06:27 2023 +0300
+
+    Merge branch 'dev' into Rocket-booking
+
+[33mcommit fcee6d0eca600f0f25164476f43a0afa845c6029[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m
+Merge: f6aea0a 4cbb27b
+Author: Filbert Daniel <filbertdan67@gmail.com>
+Date:   Fri Oct 27 15:47:12 2023 +0300
+
+    Merge pull request #30 from FilbertKimasa/Display-rockets-lists
+    
+    Display rockets lists
+
+[33mcommit 4cbb27b90ab7e420bd0f33d3900ef38d3448177b[m[33m ([m[1;31morigin/Display-rockets-lists[m[33m, [m[1;32mDisplay-rockets-lists[m[33m)[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Fri Oct 27 15:45:07 2023 +0300
+
+    Fix mege conflicts
+
+[33mcommit 07def46d19b8f7c0b524966baa5474aa7172bcfa[m
+Merge: 5971684 f6aea0a
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Fri Oct 27 15:34:13 2023 +0300
+
+    Merge the dev branch
+
+[33mcommit f6aea0a2bab81e6eb28b42fb5152e85db9fc664c[m[33m ([m[1;32mfetch-data-form-rocket-endpoint[m[33m)[m
+Merge: bd50ab2 e7e2574
+Author: Surafel Samson <ssurafel4@gmail.com>
+Date:   Fri Oct 27 15:10:52 2023 +0300
+
+    Merge pull request #29 from FilbertKimasa/fetch-and-display-missions
+    
+    Fetch and display missions
+
+[33mcommit e7e25744aa7114aaaab03eb17d2dd85732db0eac[m[33m ([m[1;31morigin/fetch-and-display-missions[m[33m, [m[1;32mfetch-and-display-missions[m[33m)[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Fri Oct 27 11:00:28 2023 +0300
+
+    Update files name
+
+[33mcommit 02cd65d4f97a8f00558487c780e2acb48d2ccc70[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Fri Oct 27 10:26:56 2023 +0300
+
+    Fix errors
+
+[33mcommit 862ce00effb815e5b6d087bf10cedc6c2119b8fb[m
+Author: Filbert Daniel <filbertdan67@gmail.com>
+Date:   Fri Oct 27 10:20:25 2023 +0300
+
+    Delete src/Redux/missions/missionSlice.js
+
+[33mcommit d0fb8da10f1756fb4941355217f8fe29cd4b2acd[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Fri Oct 27 09:43:50 2023 +0300
+
+    Fix errors
+
+[33mcommit 64a689851669430ba4c3a894c2ab0d97f2b6241a[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Fri Oct 27 07:25:09 2023 +0300
+
+    Modify reserve btn styles
+
+[33mcommit e754e365a288e05f3c1ef9cf04037658cdd7fe05[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Fri Oct 27 06:17:52 2023 +0300
+
+    Add hover effect to the reserve btn
+
+[33mcommit a23ccc54a77df76c1213f9b45d52f91838415f3e[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Fri Oct 27 06:06:51 2023 +0300
+
+    Add export bookRocket function
+
+[33mcommit 71ad73604630180af7071f481239a4615da1238e[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Fri Oct 27 04:36:50 2023 +0300
+
+    Add on click event listener
+
+[33mcommit 5971684d340643d8ba568aefc571724774f5029b[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 23:22:23 2023 +0300
+
+    Remove extra space
+
+[33mcommit 2230c6407f142555adb1a01256c8b1ae0d73c886[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 23:20:42 2023 +0300
+
+    Display rockets on load
+
+[33mcommit 147d121ee8a79c4dd723ba98265f0f3ce9724a86[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 23:12:37 2023 +0300
+
+    Add expected prop in the rocket item
+
+[33mcommit 192bcefa19b559224dab3659d4b7f25c18e8152d[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 22:33:43 2023 +0300
+
+    Adjust padding for the rocket item
+
+[33mcommit 0213406d838418fcc52ed756498ab3c42047a159[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 22:24:34 2023 +0300
+
+    Add styles for the reserve button
+
+[33mcommit 6ca473a352b24e1c40eb171c6b509e5519840ec1[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 22:18:41 2023 +0300
+
+    Add rocket-info class
+
+[33mcommit 01a82fc85fdfd6ff047706af32fd6c3c3b475dfd[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 22:13:00 2023 +0300
+
+    Add display grid to the rocketItem
+
+[33mcommit 7fe921287d822a2d2a42985cc03ad8e8376b9877[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 22:04:46 2023 +0300
+
+    Adjust styles for the header
+
+[33mcommit 491e5937f179fbfc6865107eaa01d9dd10374368[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 21:12:06 2023 +0300
+
+    Add styles for the rocket item
+
+[33mcommit 643a4bc8b56c8384e1622990ed9e642a5184edda[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Thu Oct 26 18:38:08 2023 +0300
+
+    Fix errors
+
+[33mcommit c545fd3e4a1e62bf690cfe7b3a9edb3d759ee1da[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Thu Oct 26 17:57:35 2023 +0300
+
+    Fix linter errors
+
+[33mcommit f4bd8ebe19035c240c40ba91a32e8fb81d95b60d[m
+Merge: 84a4639 495ad18
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Thu Oct 26 17:43:45 2023 +0300
+
+    Merge branch 'fetch-and-display-missions' of https://github.com/FilbertKimasa/space-travelers-hub into fetch-and-display-missions
+
+[33mcommit 84a4639344ead2a24a3eebea01f9b3e4c003184d[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Thu Oct 26 17:43:15 2023 +0300
+
+    Fix errors
+
+[33mcommit 495ad185f0384a83ca7c0e166972768d744fb9bb[m
+Merge: 2fa4130 bd50ab2
+Author: Surafel Samson <ssurafel4@gmail.com>
+Date:   Thu Oct 26 17:36:45 2023 +0300
+
+    Merge branch 'dev' into fetch-and-display-missions
+
+[33mcommit 2fa4130c2658002be5b0860092a0970356fda5f9[m[33m ([m[1;31morigin/fetch-missions[m[33m)[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Thu Oct 26 17:15:49 2023 +0300
+
+    Style loading text
+
+[33mcommit ec957686c81f6ecc9891bf4236753b3212cb72df[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Thu Oct 26 17:00:52 2023 +0300
+
+    Bold mission name and udate styles for status
+
+[33mcommit 410e59c402fdb94af78673982169f52d67f1a0ed[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Thu Oct 26 16:50:22 2023 +0300
+
+    Update styles for the table
+
+[33mcommit 374d112375c3d6b7b5e0946fa5b2f71b6a268c34[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Thu Oct 26 15:48:24 2023 +0300
+
+    Update tags on rendered list by using table tags
+
+[33mcommit 295ebc8a819168c4667dc741bd74bc93bb020bdf[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 13:46:33 2023 +0300
+
+    Add RocketItem.css file
+
+[33mcommit cdc03f3a5ccd958fb86885d284ffecb3e90ac79e[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 13:43:14 2023 +0300
+
+    Add App.css file
+
+[33mcommit fbfdb9932f424170becd3d0f3529b5cbd9724ca0[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 13:35:20 2023 +0300
+
+    Pass item to the rocket item
+
+[33mcommit bd50ab2d57fd6f5bc32c6bc482abaa62f644ab84[m
+Merge: 0f1c13a e207687
+Author: Filbert Daniel <filbertdan67@gmail.com>
+Date:   Thu Oct 26 12:39:46 2023 +0300
+
+    Merge pull request #28 from FilbertKimasa/fetch-data-form-rocket-endpoint
+    
+    Fetch data form rocket endpoint
+
+[33mcommit 2c70e8e808fc2b01956180d61815e02380a5d9da[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Thu Oct 26 11:12:21 2023 +0300
+
+    Add button for the status
+
+[33mcommit b77ba0207a04b9dfc0f85e1e9db21cab4e9a1c48[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Thu Oct 26 10:26:44 2023 +0300
+
+    Add styles for MissionList
+
+[33mcommit e207687cb4cc2bd4074646ee954f5d588c6c864a[m[33m ([m[1;31morigin/fetch-data-form-rocket-endpoint[m[33m)[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 03:14:01 2023 +0300
+
+    Changed rockrts form object to an array
+
+[33mcommit 04784c5c406dc27f23e047c4713b338ccf12ee1a[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 03:04:28 2023 +0300
+
+    Remove commented code
+
+[33mcommit 83e512e8ee21a036b8334b2c09681cb0fc31ae4f[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 03:02:40 2023 +0300
+
+    Dispach an action to store the selected data in the store
+
+[33mcommit 18db830cca7ed221c73ed4c720356285effecc07[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Thu Oct 26 02:22:24 2023 +0300
+
+    Fix import/no-extraneous-dependencies error
+
+[33mcommit 4c841259a1b3d4389e59c951d08800d2bb75abbb[m[33m ([m[1;32mfetch-missions[m[33m)[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Wed Oct 25 21:06:05 2023 +0300
+
+    Fetch data from Api and display it on screen
+
+[33mcommit 2f5afff853777f7cb3552884faf3fc87041db7e1[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Wed Oct 25 12:55:37 2023 +0300
+
+    Add initial state of mission
+
+[33mcommit 01990d51a069e5df9fbb651aa860e2854cee360e[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Wed Oct 25 12:35:52 2023 +0300
+
+    Install axios and redux toolkit
+
+[33mcommit 0f1c13a6817581450e82564da482865fb5e5f2d8[m
+Merge: 37a1d3e 743c305
+Author: Surafel Samson <ssurafel4@gmail.com>
+Date:   Wed Oct 25 11:25:27 2023 +0300
+
+    Merge pull request #27 from FilbertKimasa/basic-structure-mission
+    
+    Basic structure of mission
+
+[33mcommit 743c3057561eb8ec593f4b84f4c2811e3eadbb02[m[33m ([m[1;31morigin/basic-structure-mission[m[33m)[m
+Merge: 778944c 37a1d3e
+Author: Surafel Samson <ssurafel4@gmail.com>
+Date:   Wed Oct 25 11:13:57 2023 +0300
+
+    Merge branch 'dev' into basic-structure-mission
+
+[33mcommit 37a1d3ec30bd0ff0573f4e975fe522ee390b717e[m
+Merge: cbe00c6 d3c2964
+Author: Filbert Daniel <filbertdan67@gmail.com>
+Date:   Wed Oct 25 08:48:52 2023 +0300
+
+    Merge pull request #26 from FilbertKimasa/Rocket-basic-structure
+    
+    Rocket basic structure
+
+[33mcommit 778944ca3ea6d7a2accef84293542fe7ed84156f[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 20:49:32 2023 +0300
+
+    Fix linter errors
+
+[33mcommit 04c1529a628d604ece1e4caefdec074faadd04ef[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 20:38:47 2023 +0300
+
+    Update nav list color and fix errors
+
+[33mcommit b25fc05c090e2ed9d9720097e4cab3e2e34269e0[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 20:26:47 2023 +0300
+
+    Create  mission folder and missionSlice.js file
+
+[33mcommit 255af7c567ff42c21c54fe51000ba096e955d718[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 20:19:14 2023 +0300
+
+    Add style to active nav link
+
+[33mcommit f2b233fd7e519d17cf03c97c0c85b9041dc1e638[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 19:45:09 2023 +0300
+
+    Fetches rockets form the API
+
+[33mcommit 4c6a8fb0f1ebbdd05012d40dfa7b4f14b9a15623[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 19:19:13 2023 +0300
+
+    Add Fetch rocket function and create rocketSlice
+
+[33mcommit 51e3190b4c087df7f3366d63e975933fd3124138[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 19:04:17 2023 +0300
+
+    Install redux tool kit
+
+[33mcommit 047e532644b7a2b6842a4f8db3ac3e89e5ea3a4f[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 18:54:11 2023 +0300
+
+    Add RocketList and RocketList component
+
+[33mcommit d3c2964cc0bc866d553eb3367f4fdd8958167577[m[33m ([m[1;31morigin/Rocket-basic-structure[m[33m, [m[1;32mRocket-basic-structure[m[33m)[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 18:40:35 2023 +0300
+
+    Add folder for the rockets slice
+
+[33mcommit 0e86415eec5f880b273eba13d8da6776631d4675[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 18:25:51 2023 +0300
+
+    Add underline for the active link
+
+[33mcommit f3ea730fbc738e03f41964baa111d36d58adcfbd[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 18:13:11 2023 +0300
+
+    Add NavLink
+
+[33mcommit cbe00c69dec0de4368ce2295d9efcb38a6806640[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 17:54:56 2023 +0300
+
+    Modify styles for the header
+
+[33mcommit 065cbaa0c074b0c573f86d6fa0e20cc622a6922a[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 17:47:58 2023 +0300
+
+    Add text decoration
+
+[33mcommit 96c9bbb8df6581d9dabb0483a3320dfb2d4a7ee5[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 17:39:02 2023 +0300
+
+    Update header styles
+
+[33mcommit 77066769f61599aa6233b9e9ddbaf005a55cf894[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 16:58:10 2023 +0300
+
+    Add styles for header
+
+[33mcommit fd528dd77c1d9d934d32eb81e7a7109d2f4ac03b[m
+Merge: 9be8d5a 2474462
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 16:46:09 2023 +0300
+
+    Merge branch 'dev' of https://github.com/FilbertKimasa/space-travelers-hub into dev
+
+[33mcommit 9be8d5a39e9dc7d8b451fd0aeabbd4111f0c284c[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 16:45:37 2023 +0300
+
+    Add style for nav list
+
+[33mcommit 247446226fb461357e7e8dd59f71ec84e1fc3ee7[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 16:45:14 2023 +0300
+
+    Rename Navigation to Header
+
+[33mcommit d3b30a6e256db14e9b99f8896c16e9be1cb5c444[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 16:41:36 2023 +0300
+
+    Add Browser Router
+
+[33mcommit 0aed70b0eeacc4ac4ca309ef1812b50fb024b407[m
+Merge: 49b1f09 73fc9fa
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 16:37:16 2023 +0300
+
+    Merge branch 'dev' of https://github.com/FilbertKimasa/space-travelers-hub into dev
+
+[33mcommit 73fc9fabe02702a530ed5cf063beeae5e82adfa1[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 16:27:00 2023 +0300
+
+    Add routes
+
+[33mcommit 49b1f09136c560c0dad0f05e01c495554e161dbe[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 16:22:32 2023 +0300
+
+    Import Link
+
+[33mcommit d47c6ef14b78788d24351af84a752f8f0b61dc53[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 16:08:18 2023 +0300
+
+    Rename navigation
+
+[33mcommit 4322510792a3d3b9c48d1934cc7b6c56ca21f6f4[m
+Merge: 57f3b4d a9488eb
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 15:58:14 2023 +0300
+
+    Merge branch 'dev' of https://github.com/FilbertKimasa/space-travelers-hub into dev
+
+[33mcommit 57f3b4de5021b491ccd551f5f3a6df8dfdb8e142[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 15:57:28 2023 +0300
+
+    Add nav list
+
+[33mcommit a9488eb1647a29b275889baa485b4d116806ef61[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 15:53:30 2023 +0300
+
+    Add class name for logo and app name
+
+[33mcommit 5a591db72a3b68506c5e0eb42fc703b61ec54058[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 15:48:05 2023 +0300
+
+    Create styles folder and add Navigation.css file
+
+[33mcommit 0207ff1ef6aa08719740ec1e1ec4a00e3fe10c54[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 15:44:27 2023 +0300
+
+    add app name
+
+[33mcommit 3d4b2644c8e9b8077ae4d55f3558ec55db3e6b25[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 15:31:48 2023 +0300
+
+    Import a logo
+
+[33mcommit a46f66b489dfabd7bd53583db5c671652b69c1cf[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 15:22:10 2023 +0300
+
+    Add Navigation component and install react-router-dom
+
+[33mcommit d1929be24d6e20e332c5885a010cdb72b7900c43[m[33m ([m[1;31morigin/space-travelers[m[33m)[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 14:54:57 2023 +0300
+
+    Remove styles import
+
+[33mcommit 6df82c9812f431ae7e66e7c1e5f35de67aac2716[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 14:52:46 2023 +0300
+
+    Delete default css files
+
+[33mcommit 03f6706bc199c5b1bb6177be6e3a73f1dc8405f3[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 14:45:59 2023 +0300
+
+    Remove unused import
+
+[33mcommit 4d5ac8668ec6a4cefce30b984102031492a0fc22[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 12:18:25 2023 +0300
+
+    Add linters config
+
+[33mcommit 7e935885885f43b34fc327599d6189cf7aa7b55e[m
+Author: Surafels <ssurafel4@gmail.com>
+Date:   Tue Oct 24 11:51:53 2023 +0300
+
+    Remove unnecessary file
+
+[33mcommit 7472ab99e9cae41cb0e663087987109bd135fbd6[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mreserve[m[33m, [m[1;32mmain[m[33m)[m
+Author: FilbertKimasa <filbertdan67@gmail.com>
+Date:   Tue Oct 24 10:49:37 2023 +0300
+
+    Create react app
