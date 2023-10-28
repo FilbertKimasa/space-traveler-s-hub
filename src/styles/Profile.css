@@ -1,0 +1,7 @@
+.profile-section {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 50% 50%;
+  margin: 10px 20px;
+  border: 1px solid black;
+}
