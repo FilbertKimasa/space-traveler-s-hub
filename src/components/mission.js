@@ -28,7 +28,7 @@ function MissionList() {
       </div>
     );
   }
-  
+
   return (
     <div className="item-container">
       <table className="M-table">
