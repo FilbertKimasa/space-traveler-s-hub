@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render header component correctly Should render the header correctly 1`] = `
+<div>
+  <header
+    class="display-flex"
+  >
+    <div
+      class="head display-flex"
+    >
+      <img
+        alt="logo"
+        class="logo"
+        src="logo.png"
+      />
+      <span
+        class="app-name"
+      >
+        Space Traveler‘s Hub
+      </span>
+    </div>
+    <nav>
+      <ul
+        class="nav-list display-flex"
+      >
+        <li>
+          <a
+            class="rocket-link"
+            href="/rockets"
+            style="text-decoration: none;"
+          >
+            Rocket
+          </a>
+        </li>
+        <li>
+          <a
+            class="mission-link"
+            href="/mission"
+          >
+            Mission
+          </a>
+        </li>
+        <li>
+          <a
+            class=""
+            href="/profile"
+          >
+            My profile
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;
