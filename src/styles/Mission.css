@@ -54,7 +54,6 @@
   font-size: 24px;
 }
 
-
 .joinMission {
   padding: 10px 15px;
   font-size: 15px;
@@ -79,12 +78,11 @@
   background-color: #fff;
   border: 1px solid #999;
   border-radius: 5px;
-
 }
 
 .joined {
   color: red;
-  border: 1px solid
+  border: 1px solid;
 }
 
 .memberBtn {
@@ -103,3 +101,22 @@
   background-color: rgb(13, 141, 177);
 }
 
+.profile-section {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+  padding: 20px 90px;
+}
+
+.p-list {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.profile-list {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+}

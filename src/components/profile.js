@@ -6,11 +6,12 @@ function Profile() {
   const missionJoined = missions.filter((mission) => mission.join);
 
   return (
-    <div className="p-mission">
-      <h2>My Missions</h2>
-      { missionJoined.length > 0 ? (
-        <div className="p-list">
-          {
+    <section className="Profile-section">
+      <div className="p-mission">
+        <h2>My Missions</h2>
+        { missionJoined.length > 0 ? (
+          <div className="p-list">
+            {
                   missionJoined.map((mission) => (
                     <p
                       key={mission.mission_id}
@@ -20,9 +21,10 @@ function Profile() {
                     </p>
                   ))
               }
-        </div>
-      ) : <p className="notJoined">There is no joined mission.</p>}
-    </div>
+          </div>
+        ) : <p className="notJoined">There is no joined mission.</p>}
+      </div>
+    </section>
   );
 }
 
