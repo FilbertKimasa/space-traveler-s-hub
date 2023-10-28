@@ -49,8 +49,10 @@ function RocketItem({ itemProp }) {
 RocketItem.propTypes = {
   itemProp: PropTypes.shape({
     flickr_images: PropTypes.arrayOf(PropTypes.string).isRequired,
+    id: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
+    reserved: PropTypes.bool,
   }).isRequired,
 };
 
