@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionList component dispatches joinMission action on button click 1`] = `Array []`;
+
+exports[`MissionList component renders mission list 1`] = `undefined`;
