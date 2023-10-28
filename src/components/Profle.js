@@ -1,13 +1,23 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import '../styles/Profile.css';
 
 function Profle() {
-  // eslint-disable-next-line no-unused-vars
-  const rockets = useSelector((state) => state.rockets.rockets);
+  const rockets = useSelector((state) => state.rockets.rockets).filter(
+    (rocket) => rocket.reserved,
+  );
+
   return (
     <section className="profile-section">
       <div>My Mission</div>
-      <div>My Rockets</div>
+      <div>
+        <h2>My Rockets</h2>
+        <ul>
+          {rockets.map((rocket) => (
+            <li key={rocket.id}>{rocket.name}</li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 }
