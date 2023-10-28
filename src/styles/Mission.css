@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.item-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 24px;
+  overflow-x: auto;
+}
+
+.M-table,
+.M-table th,
+.M-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.M-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+}
+
+.M-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.mission-name {
+  font-weight: bold;
+}
+
+.status {
+  width: 14%;
+}
+
+.M-table tr:nth-child(odd) {
+  background-color: rgb(242, 242, 242);
+}
+
+.M-table .M-table td {
+  background-color: rgb(242, 242, 242);
+}
+
+.loading {
+  margin: 24px;
+  font-size: 24px;
+}
+
+.joinMission {
+  padding: 10px 15px;
+  font-size: 15px;
+  background: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.leaveMission {
+  padding: 10px 15px;
+  font-size: 15px;
+  background: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid red;
+  color: red;
+}
+
+.leaveBtn {
+  cursor: pointer;
+  padding: 0.4rem 1rem;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.joined {
+  color: red;
+  border: 1px solid;
+}
+
+.memberBtn {
+  text-align: center;
+  padding: 3px 8px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.notMember {
+  background-color: #888;
+}
+
+.activeMember {
+  background-color: rgb(13, 141, 177);
+}
+
+.Profile-section {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+  padding: 20px 90px;
+  margin: 24px auto;
+}
+
+.p-list {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.profile-list {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+}
