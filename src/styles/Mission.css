@@ -101,12 +101,13 @@
   background-color: rgb(13, 141, 177);
 }
 
-.profile-section {
+.Profile-section {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 50% 50%;
   gap: 20px;
   padding: 20px 90px;
+  margin:24px auto;
 }
 
 .p-list {
