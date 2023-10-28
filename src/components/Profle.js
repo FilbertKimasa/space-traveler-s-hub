@@ -12,7 +12,7 @@ function Profle() {
       <div>My Mission</div>
       <div>
         <h2>My Rockets</h2>
-        <ul>
+        <ul className="rocket-reserved-list">
           {rockets.map((rocket) => (
             <li key={rocket.id}>{rocket.name}</li>
           ))}
