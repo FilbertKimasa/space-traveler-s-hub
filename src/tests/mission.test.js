@@ -1,11 +1,9 @@
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import MissionList from '../components/mission';
-import { fetchMission, joinMission } from '../redux/missions/missionSlice';
 import '@testing-library/jest-dom';
-
 
 // Create a mock store
 const mockStore = configureStore([]);
@@ -44,7 +42,7 @@ describe('MissionList component', () => {
     render(
       <Provider store={store}>
         <MissionList />
-      </Provider>
+      </Provider>,
     );
 
     expect(screen.getByText('Mission 1')).toBeInTheDocument();
@@ -53,5 +51,5 @@ describe('MissionList component', () => {
     expect(screen.getByText('Description 2')).toBeInTheDocument();
 
     expect(screen.container).toMatchSnapshot();
-  })
+  });
 });
