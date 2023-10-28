@@ -30,13 +30,7 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/my-profile"
-              className="profile-link"
-              style={({ isActive }) => ({
-                textDecoration: isActive ? 'underline' : 'none',
-              })}
-            >
+            <NavLink to="/profile">
               My profile
             </NavLink>
           </li>
