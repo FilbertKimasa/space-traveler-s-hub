@@ -21,8 +21,9 @@ describe('RocketItem component', () => {
     const { container } = render(
       <Provider store={store}>
         <RocketItem itemProp={rocket} />
-      </Provider>
+      </Provider>,
     );
 
-    expect(container.innerHTML).toMatchInlineSnapshot(`"<li class=\\"rocket-item\\"><img src=\\"rocket-image.jpg\\" alt=\\"rocket\\" class=\\"rocket-img\\"><span class=\\"display-flex rocket-info\\"><h2>Rocket 1</h2><p>This is a rocket.</p><button class=\\"rocket-btn reserve-btn\\" type=\\"button\\">Reserve Rocket</button></span></li>"`);  });
+    expect(container.innerHTML).toMatchInlineSnapshot('"<li class=\\"rocket-item\\"><img src=\\"rocket-image.jpg\\" alt=\\"rocket\\" class=\\"rocket-img\\"><span class=\\"display-flex rocket-info\\"><h2>Rocket 1</h2><p>This is a rocket.</p><button class=\\"rocket-btn reserve-btn\\" type=\\"button\\">Reserve Rocket</button></span></li>"');
+  });
 });
