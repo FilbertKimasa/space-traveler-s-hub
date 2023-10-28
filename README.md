@@ -33,7 +33,7 @@
 
 # 📖 Space Traveler‘s Hub <a name="about-project"></a>
 
-**Space Traveler‘s Hub** ,Discover, browse, and shop for your favorite books with our book store app. Explore a vast collection of titles, genres, and authors, all at your fingertips. Easily search for, purchase, and download e-books or order physical copies for delivery. Stay updated with bestsellers, recommendations, and personalized reading lists. Organize your virtual bookshelf and connect with fellow bookworms in a vibrant reading community. Your next great read is just a tap away!".
+**Space Traveler‘s Hub** is an innovative software application designed to provide users with the ability to book a seat on a rocket and join upcoming space missions. This type of application would cater to a wide range of users, from space enthusiasts and tourists to astronauts and researchers.
 
 ## 🛠 Built With <a name="built-with"></a>
 
