@@ -9,7 +9,7 @@ describe('Render header component correctly', () => {
     const { container } = render(
       <Router>
         <Header />
-      </Router>
+      </Router>,
     );
     expect(container).toMatchSnapshot();
   });
