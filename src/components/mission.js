@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import React, { useEffect } from 'react';
-import { fetchMission } from '../redux/missions/missionSlice';
+import { fetchMission, joinMission, leaveMission } from '../redux/missions/missionSlice';
 import '../styles/Mission.css';
 
 function MissionList() {
@@ -43,10 +43,10 @@ function MissionList() {
               <td className="mission-name">{mission.mission_name}</td>
               <td>{mission.description}</td>
               <td className="status">
-                <button type="button">Not a member</button>
+                <button type="button" onClick={() => dispatch(leaveMission(mission.id))}>Not a member</button>
               </td>
               <td className="status">
-                <button type="button">Join Mission</button>
+                <button type="button" onClick={() => dispatch(joinMission(mission.id))}>Join Mission</button>
               </td>
             </tr>
           ))}
