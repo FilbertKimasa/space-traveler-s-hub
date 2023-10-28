@@ -25,11 +25,16 @@ function Profle() {
       </div>
       <div>
         <h2>My Rockets</h2>
-        <ul className="rocket-reserved-list">
-          {rockets.map((rocket) => (
-            <li key={rocket.id}>{rocket.name}</li>
-          ))}
-        </ul>
+
+        {rockets.length > 0 ? (
+          <ul className="rocket-reserved-list">
+            {rockets.map((rocket) => (
+              <li key={rocket.id}>{rocket.name}</li>
+            ))}
+          </ul>
+        ) : (
+          <p className="notJoined">There is no reserved rocket.</p>
+        )}
       </div>
     </section>
   );
