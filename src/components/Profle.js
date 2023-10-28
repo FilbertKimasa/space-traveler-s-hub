@@ -25,7 +25,6 @@ function Profle() {
       </div>
       <div>
         <h2>My Rockets</h2>
-
         {rockets.length > 0 ? (
           <ul className="rocket-reserved-list">
             {rockets.map((rocket) => (
