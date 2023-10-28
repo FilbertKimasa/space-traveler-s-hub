@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RocketItem component renders rocket item correctly 1`] = `
+<div>
+  <li
+    class="rocket-item"
+  >
+    <img
+      alt="rocket"
+      class="rocket-img"
+      src="rocket-image.jpg"
+    />
+    <span
+      class="display-flex rocket-info"
+    >
+      <h2>
+        Rocket 1
+      </h2>
+      <p>
+        This is a rocket.
+      </p>
+      <button
+        class="reserve-btn"
+        type="button"
+      >
+        Reserve Rocket
+      </button>
+    </span>
+  </li>
+</div>
+`;

@@ -24,13 +24,11 @@ function RocketItem({ itemProp }) {
 }
 
 RocketItem.propTypes = {
-  itemProp: PropTypes.objectOf(
-    PropTypes.shape({
-      flickr_images: PropTypes.arrayOf(PropTypes.string).isRequired,
-      name: PropTypes.string.isRequired,
-      itemProp: PropTypes.string.isRequired,
-    }),
-  ).isRequired,
+  itemProp: PropTypes.shape({
+    flickr_images: PropTypes.arrayOf(PropTypes.string).isRequired,
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default RocketItem;
